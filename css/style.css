@@ -12,49 +12,67 @@
 /*
 * Debug
 */
-.container-menu {
+.debug .container-menu {
     background-color: #add8e6;
     height: 80px;
 }
 
-.logo, .menu, .login {
+.debug .logo, .menu, .login {
     background-color: #daa520;
 }
 
-.container-menu > * {
+.debug .container-menu > * {
     border: 1px dashed black;
 }
 
-.banner {
+.debug .banner {
     background-color: #00008b;
 }
-.banner-img {
+.debug .banner-img {
     width: 900px;
     height: 400px;
     background-color: #ee82ee;
     border: 1px dashed black;
 }
 
-.col-lg {
+.debug .col-lg {
     height: 400px;
     background-color: #1e90ff;
     border: 1px dashed black;
 }
-.col-md {
+.debug .col-md {
     height: 400px;
     background-color: #ffc0cb;
     border: 1px dashed black;
 }
 
-.big-box {
+.debug .big-box {
     background-color: #228b22;
     height: 900px;
     border: 1px dashed black;
 }
 
+.debug .col-2-6 {
+    background-color: #f08080;
+    height: 580px;
+    border: 1px dashed black;
 
+}
 
+.debug .col-1-6 {
+    background-color: #20b2aa;
+    height: 580px;
+    border: 1px dashed white;
+}
 
+.debug .footer-content {
+    background-color: #7fffd4;
+}
+
+.debug .footer-content > .col {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
 
 /*
 * Header menu
@@ -122,10 +140,9 @@ nav > .menu > li {
     padding: 50px 0;
     margin: 0 auto;
     width: 80%;
-    justify-content: center;
 }
 
-.flex-container:nth-child(even) > .row {
+main .flex-container:nth-child(even) > .row {
     flex-direction: row-reverse;
 }
 .col-lg {
@@ -145,3 +162,40 @@ nav > .menu > li {
     width: 80%;
     margin: 0 auto;
 }
+
+
+
+/*
+* Footer
+*/
+footer {
+    background-color: #23272a;
+}
+
+.footer-container-top {
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.footer-container-top > .row {
+    padding: 10px 0 40px 0;
+
+}
+
+.col-2-6 {
+    flex-grow: 2;
+}
+
+.col-1-6 {
+    flex-grow: 1;
+}
+
+.footer-container-bottom {
+    padding-top: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.footer-content {
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
