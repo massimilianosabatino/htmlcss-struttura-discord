@@ -47,8 +47,9 @@
 }
 
 .big-box {
-    color: #228b22;
+    background-color: #228b22;
     height: 900px;
+    border: 1px dashed black;
 }
 
 
@@ -124,10 +125,23 @@ nav > .menu > li {
     justify-content: center;
 }
 
+.flex-container:nth-child(even) > .row {
+    flex-direction: row-reverse;
+}
 .col-lg {
     width: 60%;
 }
 
 .col-md {
     width: 40%;
+}
+
+.secondary {
+    background-color: #d3d3d3;
+    padding: 50px 0;
+}
+
+.big-box {
+    width: 80%;
+    margin: 0 auto;
 }
