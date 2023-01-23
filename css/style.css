@@ -17,7 +17,7 @@
     height: 80px;
 }
 
-.debug .logo, .menu, .login {
+.debug .logo, .debug .menu, .debug .login {
     background-color: #daa520;
 }
 
@@ -28,6 +28,7 @@
 .debug .banner {
     background-color: #00008b;
 }
+
 .debug .banner-img {
     width: 900px;
     height: 400px;
@@ -87,7 +88,6 @@
 .logo {
     width: 20%;
     padding-left: 10px;
-
 }
 
 nav {
@@ -99,11 +99,8 @@ nav {
     justify-content: center;
 }
 
-nav > ul {
-    list-style: none;
-}
-
 nav > .menu > li {
+    list-style: none;
     margin: 0 20px;
 }
 
@@ -145,6 +142,7 @@ nav > .menu > li {
 main .flex-container:nth-child(even) > .row {
     flex-direction: row-reverse;
 }
+
 .col-lg {
     width: 60%;
 }
@@ -178,7 +176,6 @@ footer {
 
 .footer-container-top > .row {
     padding: 10px 0 40px 0;
-
 }
 
 .col-2-6 {
@@ -194,6 +191,7 @@ footer {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
+
 .footer-content {
     padding: 20px 0;
     justify-content: space-between;
